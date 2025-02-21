@@ -7,29 +7,33 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="container">
+<form action="simpan.php" method="post">
+  <h1>Tambah Barang</h1>
+  
+  
+    <label for="exampleInputEmail1" class="form-label">ID Barang</label>
+    <input type="number" name="id_barang" class="form-control">
+  
+  <br>
+    <label for="exampleInputEmail1" class="form-label">Nama</label>
+    <input type="text" name="nama" class="form-control" >
+ 
+  <br>
+    <label for="exampleInputEmail1" class="form-label">ID Jenis</label>
+    <input type="text" name="id_jenis" class="form-control" >
+  
+ <br>
+    <label for="exampleInputEmail1" class="form-label">Harga</label>
+    <input type="number" name="harga" class="form-control" >
+  <br>
+    <label for="exampleInputEmail1" class="form-label">Stok</label>
+    <input type="number" name="stok" class="form-control" >
+  
+ 
+  <button type="submit" class="btn btn-primary">simpan</button>
 
-<div class="container">
-
-<h1>Tambah Barang Baru</h1>
-<form action="simpan.php" method="POST"
-<label for="">ID BARANG</label>
-<input type="number" name="id_barang" class="form-control" id="Barang">
-<br>
-<label for="">ID JENIS</label>
-<input type="number" name="id_jenis" class="form-control" id="jenis">
-<br>
-<label for="">NAMA BARANG</label>
-<input type="number" name="nama_barang" class="form-control" id="barang">
-<br>
-<label for="">HARGA</label>
-<input type="number" name="harga" class="form-control" id="harga">
-<br>
-<label for="">STOK</label>
-<input type="number" name="stok" class="form-control" id="stok">
-<br>
-<button type="submit">Simpan</button>
 </form>
-
-</form>
+</div>
 </body>
 </html>

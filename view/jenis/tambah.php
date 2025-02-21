@@ -7,22 +7,24 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="container">
+<form action="simpan.php" method="post">
+  <h1>Tambah Barang</h1>
+  
+  
+    <label for="exampleInputEmail1" class="form-label">ID Jenis</label>
+    <input type="text" name="id_jenis" class="form-control">
+  
+  <br>
+    <label for="exampleInputEmail1" class="form-label">Nama Jenis</label>
+    <input type="text" name="nama_jenis" class="form-control" >
+ 
+  <br>
+  
+ 
+  <button type="submit" class="btn btn-primary">simpan</button>
 
-<div class="container">
-
-<h1>Tambah Jenis Baru</h1>
-<form action="simpan.php" method="POST"
-<label for="">ID BARANG</label>
-<label for="">ID JENIS</label>
-<input type="number" name="id_jenis" class="form-control" id="jenis">
-<br>
-<label for="">NAMA JENIS</label>
-<input type="number" name="nama_jenis" class="form-control" id="jenis">
-<br>
-<br>
-<button type="submit">Simpan</button>
 </form>
-
-</form>
+</div>
 </body>
 </html>
